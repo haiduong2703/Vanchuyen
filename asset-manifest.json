@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Vanchuyen/static/css/main.64ea15c3.css",
+    "main.js": "/Vanchuyen/static/js/main.bad589db.js",
+    "static/js/787.d871f8c6.chunk.js": "/Vanchuyen/static/js/787.d871f8c6.chunk.js",
+    "static/media/boxicons.svg": "/Vanchuyen/static/media/boxicons.045b05bf2dc119267a90.svg",
+    "static/media/d4.jpg": "/Vanchuyen/static/media/d4.e8dc29508451b0e3641e.jpg",
+    "static/media/i1.jpg": "/Vanchuyen/static/media/i1.e8dc29508451b0e3641e.jpg",
+    "static/media/f1.jpg": "/Vanchuyen/static/media/f1.16957225ff4d5f9ef308.jpg",
+    "static/media/boxicons.eot": "/Vanchuyen/static/media/boxicons.092b78589f3f53e60030.eot",
+    "static/media/boxicons.woff": "/Vanchuyen/static/media/boxicons.0f4528cf3c75a4b361c0.woff",
+    "static/media/boxicons.ttf": "/Vanchuyen/static/media/boxicons.cbd149c55e2396cb52e7.ttf",
+    "static/media/slide_3.jpg": "/Vanchuyen/static/media/slide_3.231b64d2adf3c9b17a98.jpg",
+    "static/media/slide_2.jpg": "/Vanchuyen/static/media/slide_2.d206d70ef400f2a59ce9.jpg",
+    "static/media/d1.jpg": "/Vanchuyen/static/media/d1.cfad2695e01c9a8787af.jpg",
+    "static/media/n2.jpg": "/Vanchuyen/static/media/n2.acca2ccd1e718c5636b3.jpg",
+    "static/media/d3.jpg": "/Vanchuyen/static/media/d3.d0ae60b48041b11f9cb9.jpg",
+    "static/media/boxicons.woff2": "/Vanchuyen/static/media/boxicons.8d765747a5588f36ff61.woff2",
+    "static/media/d2.jpg": "/Vanchuyen/static/media/d2.d3363ef432bd6b388da8.jpg",
+    "static/media/n1.jpg": "/Vanchuyen/static/media/n1.6ee9c8fdc131347a9698.jpg",
+    "index.html": "/Vanchuyen/index.html",
+    "main.64ea15c3.css.map": "/Vanchuyen/static/css/main.64ea15c3.css.map",
+    "main.bad589db.js.map": "/Vanchuyen/static/js/main.bad589db.js.map",
+    "787.d871f8c6.chunk.js.map": "/Vanchuyen/static/js/787.d871f8c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64ea15c3.css",
+    "static/js/main.bad589db.js"
+  ]
+}
