@@ -1,0 +1,86 @@
+.header {
+    background   : $main-bg;
+    position     : fixed;
+    top          : 0;
+    left         : 0;
+    width        : 100%;
+    height       : $header-height;
+    z-index      : 99;
+    transition   : height 1s ease;
+    margin-bottom: 20px;
+
+    &.shrink {
+        height    : $header-shrink-height;
+        box-shadow: $box-shadow;
+        z-index   : 100;
+    }
+
+    .container {
+        height: 100%;
+    }
+
+    &__logo {
+        @include flex(center, center);
+        position      : absolute;
+        height        : 100%;
+        pointer-events: none;
+        color         : $txt-white;
+    }
+
+    &__menu {
+        @include flex(center, space-evenly);
+        height   : 100%;
+        font-size: 1.5rem;
+
+
+
+        &__center {
+            @include flex(center, center);
+
+            color      : $txt-white;
+            font-weight: 400;
+            font-size  : 1.3rem;
+
+            &__item~&__item {
+                margin-left: 39px;
+            }
+
+            &__item.active {
+                background-color: $txt-white;
+                color           : #07CDAE;
+                border          : 1px solid white;
+                border-radius   : 10px;
+                width           : auto;
+                padding         : 5px;
+                font-weight     : 400;
+            }
+        }
+
+        &__right {
+            position: relative;
+
+            input {
+                width  : 346.67px;
+                height : 40px;
+                outline: none;
+
+                background   : #FFFFFF;
+                border       : 1px solid white;
+                border-radius: 10px;
+                padding-left : 20px;
+
+
+            }
+
+            .bx-search {
+                font-size: 25px;
+                color    : black;
+                position : absolute;
+                top      : 7px;
+                right    : 7px;
+
+                z-index: 10;
+            }
+        }
+    }
+}

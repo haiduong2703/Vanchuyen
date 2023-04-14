@@ -1,0 +1,57 @@
+.infor__contact {
+    width   : 100%;
+    position: relative;
+    height  : 800px;
+
+    &__item__one {
+        position : absolute;
+        left     : 50%;
+        width    : 600px;
+        transform: translateX(-50%);
+
+        &__title {
+            font-size    : 1.5rem;
+            margin-bottom: 50px;
+        }
+
+        &__content {
+            font-size  : 1.2rem;
+            line-height: 2;
+        }
+    }
+
+    &__item__two {
+        position  : absolute;
+        left      : 50%;
+        width     : 600px;
+        transform : translateX(-50%);
+        margin-top: 300px;
+
+        &__title {
+            font-size    : 1.5rem;
+            margin-bottom: 50px;
+        }
+
+        &__content {
+            font-size  : 1.2rem;
+            line-height: 2;
+
+            td {
+                padding: 20px 0px;
+            }
+
+            input {
+                width        : 300px;
+                height       : 35px;
+                border-radius: 10px;
+            }
+        }
+
+        .btn {
+            background-color: #07CDAE;
+            color           : white;
+            margin-top      : 20px;
+
+        }
+    }
+}

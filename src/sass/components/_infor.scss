@@ -1,0 +1,61 @@
+.introduce {
+    position: relative;
+    height  : 600px;
+    display : flex;
+
+
+    &__content {
+        position  : absolute;
+        left      : 50%;
+        transform : translateX(-50%);
+        width     : 600px;
+        height    : 600px;
+        text-align: center;
+
+        h3 {
+            font-size    : 1.5rem;
+            margin-bottom: 20px;
+
+            span {
+                color: #07CDAE;
+            }
+        }
+
+        &__container {
+            display: flex;
+        }
+
+        &__image {
+            width       : 220px;
+            height      : 180px;
+            margin-right: 50px;
+
+            img {
+                width : 220px;
+                height: 180px;
+            }
+        }
+
+        &__detail {
+            width     : 600px;
+            text-align: left;
+
+            &__block1 {
+                margin-bottom: 20px;
+            }
+        }
+
+        .btn {
+            font-size  : 1rem;
+            font-weight: 500;
+            position   : absolute;
+
+            left     : 50%;
+            transform: translateX(-50%);
+
+            &__txt {
+                padding: 1rem 2rem;
+            }
+        }
+    }
+}

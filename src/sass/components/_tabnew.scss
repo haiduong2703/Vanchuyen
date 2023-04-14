@@ -1,0 +1,101 @@
+.tabnews {
+    position: relative;
+    height  : 800px;
+
+    &__title {
+        @include flex(center, space-around);
+        width           : 600px;
+        height          : 40px;
+        position        : absolute;
+        left            : 50%;
+        transform       : translateX(-50%);
+        background-color: #07cdae;
+        color           : #fff;
+
+
+
+        &__item {
+
+            width : 200px;
+            height: 40px;
+            @include flex(center, center);
+            border-right: 1px solid #fff;
+            font-weight : 600;
+
+            &.active {
+                background-color: #D9D9D9;
+                color           : #252525;
+            }
+        }
+    }
+
+    &__contents {
+        display  : none;
+        width    : 600px;
+        height   : auto;
+        position : absolute;
+        top      : 50px;
+        left     : 50%;
+        transform: translateX(-50%);
+
+        &.active {
+            display: block;
+        }
+
+        &__item {
+            display      : flex;
+            animation    : fadeOut 1s linear;
+            width        : 100%;
+            margin-bottom: 50px;
+
+
+
+            &__image {
+                width       : 210px;
+                height      : 160px;
+                margin-right: 20px;
+
+                img {
+                    width : 210px;
+                    height: 160px;
+                }
+            }
+
+            &__contents {
+                float: left;
+                width: 60%;
+            }
+
+            @keyframes fadeOut {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+
+        }
+
+        .btn {
+            font-size  : 1rem;
+            font-weight: 500;
+            position   : absolute;
+            left       : 50%;
+            transform  : translateX(-50%);
+        }
+    }
+
+    &__txt {
+
+        width     : 600px;
+        height    : 40px;
+        position  : absolute;
+        left      : 50%;
+        transform : translateX(-50%);
+        color     : black;
+        margin-top: 30px;
+    }
+}
